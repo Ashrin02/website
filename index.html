@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ashrin Mansuri | Bioinformatician &amp; Variant Curator</title>
+<meta name="description" content="Ashrin Mansuri, bioinformatician and variant curator working in pharmacogenomics, nutrigenomics and genomic data analysis.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="progress"></div>
+<canvas id="bases" aria-hidden="true"></canvas>
+<header class="nav">
+  <a class="brand" href="#top"><img src="assets/avatar.svg" alt="" width="34" height="34"><span>Ashrin Mansuri</span></a>
+  <nav id="menu" aria-label="Primary">
+    <a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a>
+  </nav>
+  <div class="nav-actions">
+    <button id="theme" aria-label="Toggle theme" title="Toggle theme">◐</button>
+    <button id="burger" aria-label="Menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <i class="orb o1"></i><i class="orb o2"></i>
+  <div class="hero-text">
+    <p class="eyebrow">Bioinformatics · Genomics</p>
+    <h1>Turning raw genomic data into <span class="grad">clinically meaningful insight.</span></h1>
+    <p class="role"><span id="role"></span><i class="caret"></i></p>
+    <p class="lead">I'm Ashrin, a bioinformatician and variant curator at Neuberg Centre for Genomic Medicine. I interpret pharmacogenomic and nutrigenomic variants, validate genomic data files, and work across sequencing and analysis pipelines.</p>
+    <div class="actions"><a class="btn primary" href="#contact">Get in touch</a><a class="btn" href="#experience">View experience</a></div>
+    <p class="meta">Ahmedabad, India · NCGM · Open to collaboration</p>
+  </div>
+  <div class="hero-art"><img src="assets/helix.svg" alt="Animated DNA double helix illustration"></div>
+</section>
+
+<section class="stats reveal">
+  <div><b data-n="2" data-s="+">0</b><span>Years in genomics</span></div>
+  <div><b data-n="3" data-s="">0</b><span>Sequencing workflows</span></div>
+  <div><b data-n="10" data-s="+">0</b><span>Curation resources</span></div>
+  <div><b data-n="2" data-s="">0</b><span>Domains: PGx &amp; NGx</span></div>
+</section>
+
+<section id="about" class="reveal">
+  <h2>About</h2>
+  <p class="intro">Medical biotechnology postgraduate who works across the full path from sample to report. I combine hands-on molecular biology with data interpretation, grounding every call in literature, GWAS evidence and clinical databases, and holding to strong ethical standards in genomic work.</p>
+  <div class="grid3">
+    <article class="card"><h3>Variant curation</h3><p>SNP interpretation, effect and risk alleles, and clinical-significance annotation for PGx and NGx using dbSNP, ClinVar, PharmGKB and GWAS.</p></article>
+    <article class="card"><h3>Genomic data &amp; pipelines</h3><p>JSON generation and validation, FASTQ, BAM and VCF integrity checks, and scripted steps within data-processing pipelines.</p></article>
+    <article class="card"><h3>Sequencing workflows</h3><p>Library preparation for WGS, WTA and 16S rRNA, Sanger sequencing, and DNA/RNA quality assessment.</p></article>
+  </div>
+</section>
+
+<section id="experience">
+  <h2 class="reveal">Experience</h2>
+  <div class="timeline">
+    <article class="job reveal"><div class="when">Sep 2024 – Present</div><div class="body">
+      <h3>Junior Variant Curator &amp; Bioinformatician</h3><p class="org">Neuberg Centre for Genomic Medicine (NCGM), Ahmedabad</p>
+      <ul><li>Curate pharmacogenomics and nutrigenomics variants from published literature, dbSNP, ClinVar, PharmGKB and GWAS.</li>
+      <li>Interpret SNP associations, identify effect and risk alleles, and annotate clinical significance by trait relevance.</li>
+      <li>Maintain documentation, data analysis and reporting across the curation workflow.</li></ul></div></article>
+    <article class="job reveal"><div class="when">NCGM</div><div class="body">
+      <h3>Bioinformatics &amp; Genomic Data Analysis</h3><p class="org">Data handling and pipelines</p>
+      <ul><li>Generate, parse and validate JSON files for variant and curation data, with schema and field checks before downstream use.</li>
+      <li>Validate and QC FASTQ, BAM and VCF files to confirm integrity and consistency before analysis.</li>
+      <li>Work within bioinformatics pipelines, scripting repetitive annotation and curation steps.</li>
+      <li>Annotate and prioritise variants using Ensembl VEP, ClinVar, gnomAD, ClinGen, CPIC and PharmVar.</li></ul></div></article>
+    <article class="job reveal"><div class="when">NCGM</div><div class="body">
+      <h3>Molecular Biology &amp; Sequencing</h3><p class="org">Research Intern → Curator</p>
+      <ul><li>Prepared libraries for WGS, whole-transcriptome analysis (WTA) and 16S rRNA sequencing.</li>
+      <li>Performed Sanger sequencing: sample prep, cycle sequencing and capillary electrophoresis.</li>
+      <li>Assessed DNA/RNA quantity and integrity with NanoDrop, Qubit and Agilent TapeStation.</li></ul></div></article>
+    <article class="job reveal"><div class="when">Training</div><div class="body">
+      <h3>Bioinformatics Internship</h3><p class="org">Bversity, India</p>
+      <ul><li>Computational approaches for biotechnology, genomic research and proteomic research.</li></ul></div></article>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="reveal">Skills &amp; tools</h2>
+  <div class="grid2">
+    <div class="card reveal"><h3>Variant curation</h3><div class="chips"><span>SNP interpretation</span><span>Pharmacogenomics</span><span>Nutrigenomics</span><span>GWAS evidence</span><span>Literature review</span></div></div>
+    <div class="card reveal"><h3>Databases &amp; resources</h3><div class="chips"><span>dbSNP</span><span>ClinVar</span><span>PharmGKB</span><span>gnomAD</span><span>VarSome</span><span>Franklin</span><span>ClinGen</span><span>Ensembl VEP</span><span>PharmVar</span><span>CPIC</span></div></div>
+    <div class="card reveal"><h3>Data &amp; bioinformatics</h3><div class="chips"><span>JSON generation &amp; parsing</span><span>JSON schema validation</span><span>FASTQ / BAM / VCF validation</span><span>Pipeline data QC</span><span>Variant annotation</span></div>
+      <h4>Also working with</h4><div class="chips soft"><span>Linux / Bash</span><span>Python</span><span>Biopython</span><span>pandas</span><span>R / Bioconductor</span><span>jq</span><span>FastQC</span><span>MultiQC</span><span>BWA</span><span>SAMtools</span><span>bcftools</span><span>GATK</span><span>Picard</span><span>vcftools</span><span>bedtools</span><span>IGV</span><span>BLAST</span><span>Nextflow</span><span>Snakemake</span><span>Galaxy</span><span>Git</span><span>Docker</span><span>Cytoscape</span><span>STRING</span><span>AutoDock Vina</span><span>PyMOL</span></div></div>
+    <div class="card reveal"><h3>Laboratory</h3><div class="chips"><span>WGS / WTA / 16S library prep</span><span>Sanger sequencing</span><span>NanoDrop</span><span>Qubit</span><span>TapeStation</span><span>Animal handling</span></div></div>
+  </div>
+</section>
+
+<section id="education">
+  <h2 class="reveal">Education &amp; project</h2>
+  <div class="grid3">
+    <article class="card reveal"><h3>M.Sc. Medical Biotechnology</h3><p class="org">The Maharaja Sayajirao University of Baroda</p><p class="muted">2022 – 2024</p></article>
+    <article class="card reveal"><h3>B.Sc. Biotechnology</h3><p class="org">Charotar University of Science and Technology</p><p class="muted">2019 – 2022</p></article>
+    <article class="card reveal"><h3>Network Pharmacology of a Medicinal Herb</h3><p class="org">Academic project · April 2024</p><p class="muted">Screened herb compounds and explored potential disease effects through network pharmacology.</p></article>
+  </div>
+</section>
+
+<section id="contact" class="reveal">
+  <div class="cta"><h2>Let's connect</h2><p>Interested in genomics, variant interpretation or bioinformatics collaboration? I'd be glad to hear from you.</p>
+  <div class="actions"><a class="btn primary" href="mailto:ashrinmansuri@gmail.com">ashrinmansuri@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/ashrin-mansuri" target="_blank" rel="noopener">LinkedIn</a></div></div>
+</section>
+</main>
+<footer class="foot">© <span id="yr">2026</span> Ashrin Mansuri · Ahmedabad, India</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
